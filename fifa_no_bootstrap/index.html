@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,maximum-scale=1.0, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>FIFA</title>
+  </head>
+
+  <body>
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">
+      <img src="assets/upload.png" width="50px" alt="top" />
+    </button>
+
+    <nav id="navbar" class="menu-container">
+      <!-- burger menu -->
+      <input type="checkbox" aria-label="Toggle menu" />
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <!-- logo -->
+      <a href="/index.html" class="menu-logo">
+        <img src="/assets/logo.png" alt="" />
+      </a>
+
+      <!-- search -->
+
+      <!-- menu items -->
+      <div class="menu">
+        <ul></ul>
+        <ul>
+          <li>
+            <a href="/index.html"> Home </a>
+          </li>
+          <!-- dropdown -->
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">
+                <a href="#">Rank</a>
+              </button>
+              <div class="dropdown-content">
+                <a href="/men.html"> Men's Rank </a>
+                <a href="/women.html"> Women's Rank </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="/contact.html"> Contact Us </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="slideshow-container">
+      <ul class="slides">
+        <li class="slide">
+          <img src="/assets/home.jpg" alt="Slide 1" />
+        </li>
+        <li class="slide">
+          <img src="/assets/messi-home.jpg" alt="Slide 2" />
+        </li>
+        <li class="slide">
+          <img src="/assets/giani.jpg" alt="Slide 3" />
+        </li>
+      </ul>
+    </div>
+
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <section class="frame1">
+      <div>
+        <p class="text-img">
+          One vision. One goal: <br />
+          To make football truly <br />
+          global.
+        </p>
+        <p class="name-img" style="transform: translateY(60px)">
+          Gianni Infantino
+        </p>
+        <hr style="transform: translateY(60px)" class="line" />
+      </div>
+    </section>
+    <section class="frame2">
+      <div class="sub-title">
+        <p class="text-create">CREATE SOMETHING THAT MATTERS</p>
+        <p class="text-2">
+          Football is so much more than a game. It is a force for good that
+          breaks down barriers and unites the world.
+        </p>
+      </div>
+      <div class="desc">
+        <div class="desc-1">
+          <img src="/assets/education.jpg" alt="edu" class="img-desc" />
+          <p class="title-desc">Education</p>
+          <p class="text-desc">
+            Children who play football are more likely to stay active in life.
+            Through the popularity of football, we teach and promote essential
+            values and life skills.
+          </p>
+        </div>
+        <div class="desc-2">
+          <img src="/assets/health.jpg" alt="health" class="img-desc" />
+          <p class="title-desc">HEALTH</p>
+          <p class="text-desc">
+            Health is more important than football. That's why FIFA and WHO team
+            up and advocate for healthy lifestyles through football.
+          </p>
+        </div>
+        <div class="desc-3">
+          <img src="/assets/growth.jpg" alt="growth" class="img-desc" />
+          <p class="title-desc">GROWTH</p>
+          <p class="text-desc">
+            FIFA invests nearly USD 600 million every year in new pitches and
+            football facilities all around the world, including in many
+            developing countries. For the benefit of our youth.
+          </p>
+        </div>
+        <div class="desc-4">
+          <img src="/assets/equality.jpg" alt="edu" class="img-desc" />
+          <p class="title-desc">Equality</p>
+          <p class="text-desc">
+            FIFA is determined to offer equal opportunities to all people
+            without regard to gender, ethnic, racial or social origin, colour,
+            religion, sexual orientation, age, disability or any other reason.
+            We have realised significant improvements in recent years, but we
+            know that we can still do better.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="frame3">
+      <div class="left-content">
+        <div class="sponsor">
+          <img src="/assets/coca_cola.png" alt="coca-cola" class="img-sponsor" />
+          <img src="/assets/fifa_left.png" alt="fifa" class="img-sponsor" />
+        </div>
+        <div class="left-text">
+          <p class="text-world">WORLD RANKING</p>
+          <p class="text-world_ranking">FIFA/Coca-Cola World ranking</p>
+        </div>
+      </div>
+      <div class="men-content">
+        <div class="grid-info" style="grid-row: 1/2">
+          <p class="text-info" style="grid-column: 1/4">Men</p>
+          <p class="text-info" style="grid-column: 1/2">RK</p>
+          <p class="text-info" style="grid-column: 2/4">Team</p>
+        </div>
+        <div class="rk-home" style="grid-row: 3/7">
+          <p class="rk-text-home" style="grid-row: 1/7; grid-column: 1/4">1</p>
+          <p class="rk-text-home" style="grid-row: 2/7; grid-column: 1/4">2</p>
+          <p class="rk-text-home" style="grid-row: 3/7; grid-column: 1/4">3</p>
+          <p class="rk-text-home" style="grid-row: 4/7; grid-column: 1/4">4</p>
+          <p class="rk-text-home" style="grid-row: 5/7; grid-column: 1/4">5</p>
+        </div>
+        <div class="flag" style="grid-row: 3/7; grid-column: 2/3">
+          <img
+            src="/assets/argen.png"
+            alt="argen"
+            class="flag-home"
+            style="padding: 0px"
+          />
+          <img
+            src="/assets/france.png"
+            alt="france"
+            class="flag-home"
+            style="padding: 30px 0px 0px 0px"
+          />
+          <img
+            src="/assets/brazil.png"
+            alt="brazil"
+            class="flag-home"
+            style="padding: 30px 0px 0px 0px"
+          />
+          <img
+            src="/assets/belgium.png"
+            alt="belgium"
+            class="flag-home"
+            style="padding: 30px 0px 0px 0px"
+          />
+          <img
+            src="/assets/england.png"
+            alt="england"
+            class="flag-home"
+            style="padding: 30px 0px 0px 0px"
+          />
+        </div>
+        <div class="country-home" style="grid-row: 3/7; grid-column: 3/3">
+          <p class="country-name-home" style="grid-row: 1/7; grid-column: 1/3">
+            Argentina
+          </p>
+          <p class="country-name-home" style="grid-row: 2/7; grid-column: 1/3">
+            France
+          </p>
+          <p class="country-name-home" style="grid-row: 3/7; grid-column: 1/3">
+            Brazil
+          </p>
+          <p class="country-name-home" style="grid-row: 4/7; grid-column: 1/3">
+            Belgium
+          </p>
+          <p class="country-name-home" style="grid-row: 5/7; grid-column: 1/3">
+            England
+          </p>
+        </div>
+      </div>
+
+      <div class="women-content">
+        <div class="grid-info" style="grid-row: 1/2">
+          <p class="text-info" style="grid-column: 1/4">Women</p>
+          <p class="text-info" style="grid-column: 1/2">RK</p>
+          <p class="text-info" style="grid-column: 2/4">Team</p>
+        </div>
+        <div class="rk-home" style="grid-row: 3/7">
+          <p class="rk-text-home" style="grid-row: 1/7; grid-column: 1/4">1</p>
+          <p class="rk-text-home" style="grid-row: 2/7; grid-column: 1/4">2</p>
+          <p class="rk-text-home" style="grid-row: 3/7; grid-column: 1/4">3</p>
+          <p class="rk-text-home" style="grid-row: 4/7; grid-column: 1/4">4</p>
+          <p class="rk-text-home" style="grid-row: 5/7; grid-column: 1/4">5</p>
+        </div>
+        <div class="flag" style="grid-row: 3/7; grid-column: 2/3">
+          <img
+            src="/assets/usa.png"
+            alt="usa"
+            class="flag-home"
+            style="padding: 0px"
+          />
+          <img
+            src="/assets/german.png"
+            alt="german"
+            class="flag-home"
+            style="padding: 30px 0px 0px 0px"
+          />
+          <img
+            src="/assets/sweeden.png"
+            alt="sweeden"
+            class="flag-home"
+            style="padding: 30px 0px 0px 0px"
+          />
+          <img
+            src="/assets/england.png"
+            alt="england"
+            class="flag-home"
+            style="padding: 30px 0px 0px 0px"
+          />
+          <img
+            src="/assets/france.png"
+            alt="france"
+            class="flag-home"
+            style="padding: 30px 0px 0px 0px"
+          />
+        </div>
+        <div class="country-home" style="grid-row: 3/7; grid-column: 3/3">
+          <p class="country-name-home" style="grid-row: 1/7; grid-column: 1/3">
+            Usa
+          </p>
+          <p class="country-name-home" style="grid-row: 2/7; grid-column: 1/3">
+            German
+          </p>
+          <p class="country-name-home" style="grid-row: 3/7; grid-column: 1/3">
+            Sweeden
+          </p>
+          <p class="country-name-home" style="grid-row: 4/7; grid-column: 1/3">
+            England
+          </p>
+          <p class="country-name-home" style="grid-row: 5/7; grid-column: 1/3">
+            france
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="frame4">
+      <div class="sponsor-frame4">
+        <p>FIFA PARTNERS</p>
+        <a href="https://www.adidas.co.uk/football"
+          ><img
+            src="/assets/adidas.png"
+            alt="adidas"
+            style="width: 150px"
+            class="sponsor-frame4-img"
+        /></a>
+        <a href="https://www.coca-cola.com/id/id"
+          ><img
+            src="/assets/coca_cola.png"
+            alt="coca-cola"
+            class="sponsor-frame4-img"
+        /></a>
+        <a href="https://www.wanda-group.com/"
+          ><img
+            src="/assets/wanda-group.png"
+            alt="wanda-group"
+            style="width: 300px; height: 200px; margin: 0px 0px"
+            class="sponsor-frame4-img"
+        /></a>
+      </div>
+    </section>
+
+    <footer>
+      <a href="index.html">
+        <img
+          src="/assets/logo.png"
+          class="logo-footer"
+          alt="fifa"
+          width="200px"
+        />
+      </a>
+
+      <ul>
+        Explore
+        <li><a href="men.html">Men's Rank</a></li>
+        <li><a href="women.html">Women's Rank</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <div class="iframe">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44262438.602707215!2d-69.47232480000001!3d47.38141079999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a081a3f7131%3A0x616dac8153f4ea34!2sFederation%20of%20International%20Football%20Association!5e0!3m2!1sid!2sid!4v1684741688031!5m2!1sid!2sid"
+          width="500"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="moderate"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <p class="iframe-p">FIFA-Strasse 20, 8044 Zürich, Swiss</p>
+      </div>
+
+      <div class="sosmed">
+        <a href="https://www.instagram.com/fifa/"
+          ><img src="/assets/icons8-instagram-24.png" alt="ig"
+        /></a>
+        <a href="https://www.youtube.com/fifa"
+          ><img src="/assets/icons8-youtube-logo-24.png" alt="yt"
+        /></a>
+        <a
+          href="https://twitter.com/FIFAcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          ><img src="/assets/icons8-twitter-24.png" alt="twitter"
+        /></a>
+        <p>Copyright ©2023 GRC</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
