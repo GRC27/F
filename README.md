@@ -1,2 +1,2 @@
-# F
-my project at senior highschool to make a website
+# Fifa
+my project at senior high school was to make a website
